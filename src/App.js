@@ -6,16 +6,27 @@ import AboutMe from './components/AboutMe';
 
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  Routes,
+  Route
 } from "react-router-dom";
 
 import './App.css';
 
 function App() {
   return (
-    <h1> Portfolio work starts</h1>
+    <>
+      <Header/>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="contact" element={<ContactMe />} />
+        <Route path="about" element={<AboutMe />} />
+      </Routes>
+
+      <Footer/>
+
+
+    </>
   );
 }
 
