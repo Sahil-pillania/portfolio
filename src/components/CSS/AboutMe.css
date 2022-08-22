@@ -1,0 +1,55 @@
+.AboutPage {
+  width: 80vw;
+  margin: 8rem auto 0;
+  padding: 1rem 1rem 0 1rem;
+  min-height: 80vh;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+}
+.logoHome img {
+  width: 25rem;
+  border-radius: 1rem;
+}
+.left {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.right {
+  padding: 0.5rem;
+}
+.info {
+  font-size: 2rem;
+}
+.info h1 {
+  text-decoration: underline;
+}
+.info h1 span {
+  color: orange;
+}
+h6 {
+  width: 25rem;
+  text-align: justify;
+}
+.data {
+  padding: 2rem;
+  text-align: justify;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.2rem;
+}
+.skills,
+.tasks {
+  padding: 2.3rem;
+}
+ul {
+  list-style: none;
+}
+.tasks ul li:before {
+  content: "🔥 ";
+}
