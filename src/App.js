@@ -1,21 +1,17 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import ContactMe from './components/ContactMe';
-import AboutMe from './components/AboutMe';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import ContactMe from "./components/ContactMe";
+import AboutMe from "./components/AboutMe";
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <>
-      <Header/>
+    <div className="main">
+      <Header />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,10 +19,8 @@ function App() {
         <Route path="about" element={<AboutMe />} />
       </Routes>
 
-      <Footer/>
-
-
-    </>
+      <Footer />
+    </div>
   );
 }
 
