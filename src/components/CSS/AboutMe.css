@@ -53,3 +53,8 @@ ul {
 .tasks ul li:before {
   content: "🔥 ";
 }
+@media (max-width: 721px) {
+  .data {
+    flex-wrap: wrap;
+  }
+}

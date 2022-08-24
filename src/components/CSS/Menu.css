@@ -1,0 +1,69 @@
+.outer {
+  position: absolute;
+  z-index: 1;
+  /* top: 9rem; */
+  top: 9rem;
+  right: -35rem;
+  width: 28rem;
+  /* border: 2px solid red; */
+  border-radius: 1rem;
+  padding: 3rem 2rem 5rem 2rem;
+  background-color: rgb(76, 255, 219);
+  /* filter: opacity(0.3); */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 0.2s linear;
+}
+.outer.active {
+  right: 1rem;
+  z-index: 1;
+}
+.inner {
+  /* border: 1px solid red; */
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 0.3s linear;
+}
+.inner:hover {
+  background-color: rgb(134, 251, 228);
+}
+.inner .text {
+  position: relative;
+  padding: 1rem;
+  font-size: 3rem;
+  text-shadow: 2px 1px 1px green;
+}
+.sMenu {
+  padding: 1rem;
+}
+
+.sMenu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sMenu ul li {
+  margin-bottom: 1rem;
+}
+
+.sMenu ul li:hover {
+  transform: scale(0.95);
+}
+.active > button {
+  background: #f7461e;
+}
+#black {
+  top: 7rem;
+  width: 100vw;
+  height: 100vh;
+  /* filter: blur(10px); */
+  background: rgba(9, 9, 9, 0.306);
+  /* filter: brightness(0.6); */
+  z-index: 2;
+}
+#black.active {
+  position: absolute;
+}

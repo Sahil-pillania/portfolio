@@ -47,17 +47,19 @@ const ContactMe = () => {
                     onChange={onChangeEvent}
                     id="name"
                     value={data.name}
+                    autoComplete="false"
                     required
                   />
                   <span>Name</span>
                 </div>
-                <div className="inputBox w50">
+                <div className="inputBox w50 " style={{ marginLeft: "15px" }}>
                   <input
                     type="email"
                     name="email"
                     onChange={onChangeEvent}
                     id="email"
                     value={data.email}
+                    autoComplete="false"
                     required
                   />
                   <span>email</span>
@@ -69,6 +71,7 @@ const ContactMe = () => {
                     onChange={onChangeEvent}
                     id="phone"
                     value={data.phone}
+                    autoComplete="false"
                     required
                   />
                   <span>Mobile No.</span>
@@ -81,6 +84,7 @@ const ContactMe = () => {
                     onChange={onChangeEvent}
                     id="data"
                     value={data.data}
+                    autoComplete="false"
                     required
                   ></textarea>
                   <span>Your query</span>

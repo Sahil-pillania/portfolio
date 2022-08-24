@@ -29,8 +29,7 @@ const Header = () => {
             </NavLink>
           </div>
           <div className="img">
-            {/* <Button variant="outlined" startIcon={<MenuIcon />}></Button> */}
-            <img src="/Images/square.png" alt="" />
+            <img src="/Images/square.png" id="toggler" alt="toggler" />
             {/* <img src="/Images/cancel.png" alt="" /> */}
           </div>
           <div className="rightSide">
