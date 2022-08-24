@@ -16,6 +16,26 @@
   justify-content: space-between;
   padding: 1rem 2rem;
 }
+.header_data .rightSide {
+  width: auto;
+}
+.logoLink {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+/* toggle  */
+.img img {
+  display: none;
+  width: 4rem;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+}
+.img img:hover {
+  transform: scale(0.9);
+}
 .logo,
 .logo div {
   display: flex;
@@ -56,4 +76,13 @@ ul li a button {
 }
 .active > button {
   background: #7fabd9;
+}
+
+@media (max-width: 721px) {
+  .rightSide {
+    display: none;
+  }
+  .img img {
+    display: initial;
+  }
 }

@@ -63,9 +63,9 @@ const AboutMe = () => {
                 <u>Tasks and responsibilities:</u>
               </h3>
               <h5>
-                As a web developer, you could work for a company or agency, or
-                as a freelancer taking on projects for individual clients. Your
-                tasks will vary depending on your work situation, but day-to-day
+                As a web developer, I could work for a company or agency, or as
+                a freelancer taking on projects for individual clients. My tasks
+                will vary depending on your work situation, but day-to-day
                 responsibilities might generally include:
               </h5>
               <br />

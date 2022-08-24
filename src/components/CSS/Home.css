@@ -16,8 +16,8 @@
   justify-content: space-evenly;
   /* border: 1px solid red; */
 }
-.logoHome img {
-  width: 25rem;
+.container .logoHome img {
+  width: 35rem;
   border-radius: 1rem;
 }
 .left {
@@ -26,7 +26,11 @@
   align-items: center;
 }
 .right {
+  width: 37%;
   padding: 0.5rem;
+}
+.right .logoHome img {
+  width: 100%;
 }
 .info {
   font-size: 2rem;

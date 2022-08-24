@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import HomeIcon from "@mui/icons-material/Home";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 import InfoIcon from "@mui/icons-material/Info";
+// import MenuIcon from "@mui/icons-material/Menu";
 
 const Header = () => {
   let activeClassName = "active";
@@ -15,17 +16,24 @@ const Header = () => {
       <div className="header">
         <div className="header_data">
           <div className="left">
-            <div className="logo">
-              <img src="/Images/logo.png" alt="Logo-Sahil_Pillania" />
-              <div>
-                Sahil{" "}
-                <span style={{ color: "orange", marginLeft: ".5rem" }}>
-                  Pillania
-                </span>
+            <NavLink to="/" className="logoLink">
+              <div className="logo">
+                <img src="/Images/logo.png" alt="Logo-Sahil_Pillania" />
+                <div>
+                  Sahil
+                  <span style={{ color: "orange", marginLeft: ".5rem" }}>
+                    Pillania
+                  </span>
+                </div>
               </div>
-            </div>
+            </NavLink>
           </div>
-          <div className="right">
+          <div className="img">
+            {/* <Button variant="outlined" startIcon={<MenuIcon />}></Button> */}
+            <img src="/Images/square.png" alt="" />
+            {/* <img src="/Images/cancel.png" alt="" /> */}
+          </div>
+          <div className="rightSide">
             <div className="menu">
               <ul>
                 <li>
@@ -67,8 +75,10 @@ const Header = () => {
               </ul>
             </div>
           </div>
+          {/* <div className="right"> */}
         </div>
       </div>
+      {/* </div> */}
     </>
   );
 };
