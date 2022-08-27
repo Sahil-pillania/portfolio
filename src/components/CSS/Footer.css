@@ -16,3 +16,29 @@
   font-weight: 500;
   font-size: 1.2rem;
 }
+.backButton {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.3rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* margin-top: 1rem; */
+}
+.backButton button {
+  background-color: aquamarine;
+}
+.backButton button svg {
+  font-size: 2rem;
+}
+
+@media (max-width: 490px) {
+  .backButton {
+    transform: scale(0.85);
+  }
+}
+@media (max-width: 309px) {
+  .backButton {
+    transform: scale(0.7);
+  }
+}
