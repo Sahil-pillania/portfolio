@@ -1,4 +1,5 @@
 .outer {
+  display: none;
   position: absolute;
   z-index: 1;
   /* top: 9rem; */
@@ -13,11 +14,12 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  transition: all 0.2s linear;
+  transition: all 0.5s linear;
 }
 .outer.active {
+  display: initial;
   right: 1rem;
-  z-index: 1;
+  z-index: 10;
 }
 .inner {
   /* border: 1px solid red; */
@@ -56,14 +58,20 @@
   background: #f7461e;
 }
 #black {
-  top: 7rem;
-  width: 100vw;
-  height: 100vh;
   /* filter: blur(10px); */
   background: rgba(9, 9, 9, 0.306);
   /* filter: brightness(0.6); */
   z-index: 2;
+  transition: all 0.3s linear;
 }
 #black.active {
   position: absolute;
+  top: 7rem;
+  width: 100vw;
+  height: 80vh;
+}
+@media (max-width: 503px) {
+  #black.active {
+    height: 100vh;
+  }
 }
