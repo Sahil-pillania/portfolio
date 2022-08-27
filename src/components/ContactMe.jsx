@@ -87,7 +87,7 @@ const ContactMe = () => {
                     autoComplete="false"
                     required
                   ></textarea>
-                  <span>Your query</span>
+                  <span>Your Message</span>
                 </div>
                 <div className="inputBox w100">
                   <input

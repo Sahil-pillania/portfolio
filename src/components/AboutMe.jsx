@@ -8,16 +8,16 @@ const AboutMe = () => {
         <div className="container">
           <div className="right">
             <div className="logoHome">
-              <img src="./Images/gif.gif" alt="" />
+              <img src="./Images/about.gif" alt="" />
             </div>
           </div>
           <div className="left">
             <div className="info">
               <h6>
-                I am a Front End developer with industry experience building
+                I am a Front End developer with some experience building
                 websites and web applications. I specialize in JavaScript and
-                have professional experience working with React and Node. I also
-                have experience working with Php, mySql.
+                have some experience working with React and Node. I also have
+                experience working with Php, mySql.
               </h6>
             </div>
           </div>
