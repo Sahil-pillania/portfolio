@@ -102,6 +102,7 @@
 }
 .contactForm .formBox .inputBox input[type="submit"]:hover {
   background: #36f0e3;
+  /* background-color: white; */
 }
 
 /* responsiveness  */

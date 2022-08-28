@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
+  overflow: unset;
 }
 .header_data .rightSide {
   width: auto;
@@ -79,7 +80,7 @@ ul li a button {
   background: #7fabd9;
 }
 
-@media (max-width: 721px) {
+@media (max-width: 851px) {
   .rightSide {
     display: none;
   }
