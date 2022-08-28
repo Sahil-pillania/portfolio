@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import HomeIcon from "@mui/icons-material/Home";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 import InfoIcon from "@mui/icons-material/Info";
+import LoginIcon from "@mui/icons-material/Login";
 // import MenuIcon from "@mui/icons-material/Menu";
 
 const Header = () => {
@@ -71,13 +72,23 @@ const Header = () => {
                     </Button>
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink
+                    to="Login"
+                    className={({ isActive }) =>
+                      isActive ? activeClassName : undefined
+                    }
+                  >
+                    <Button variant="success" startIcon={<LoginIcon />}>
+                      Login
+                    </Button>
+                  </NavLink>
+                </li>
               </ul>
             </div>
           </div>
-          {/* <div className="right"> */}
         </div>
       </div>
-      {/* </div> */}
     </>
   );
 };
