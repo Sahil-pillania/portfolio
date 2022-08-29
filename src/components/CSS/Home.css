@@ -1,5 +1,5 @@
 .HomePage {
-  width: 80vw;
+  width: 100vw;
   margin: 8rem auto 0;
   padding: 1rem 1rem 0 1rem;
   min-height: 80vh;
@@ -18,7 +18,8 @@
   /* border: 1px solid red; */
 }
 .container .logoHome img {
-  width: 35rem;
+  width: 80% !important;
+  width: 30rem;
   border-radius: 1rem;
 }
 .left {
