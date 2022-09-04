@@ -1,5 +1,7 @@
 import React from "react";
 import "./CSS/Home.css";
+import logo from "../Images/logo.png";
+import gif from "../Images/gif.gif";
 
 const Home = () => {
   return (
@@ -17,7 +19,7 @@ const Home = () => {
           </div>
           <div className="right">
             <div className="logoHome">
-              <img src="./Images/logo.png" alt="" />
+              <img src={logo} alt="" />
             </div>
           </div>
         </div>
@@ -25,7 +27,7 @@ const Home = () => {
         <div className="container">
           <div className="right">
             <div className="logoHome">
-              <img src="./Images/gif.gif" alt="" />
+              <img src={gif} alt="" />
             </div>
           </div>
           <div className="left">

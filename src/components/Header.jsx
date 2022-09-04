@@ -7,6 +7,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 import InfoIcon from "@mui/icons-material/Info";
 import LoginIcon from "@mui/icons-material/Login";
+import logo from "../Images/logo.png";
 // import MenuIcon from "@mui/icons-material/Menu";
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
           <div className="left">
             <NavLink to="/" className="logoLink">
               <div className="logo">
-                <img src="/Images/logo.png" alt="Logo-Sahil_Pillania" />
+                <img src={logo} alt="Logo-Sahil_Pillania" />
                 <div>
                   Sahil
                   <span style={{ color: "orange", marginLeft: ".5rem" }}>

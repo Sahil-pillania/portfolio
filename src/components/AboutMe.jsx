@@ -1,5 +1,6 @@
 import React from "react";
 import "./CSS/AboutMe.css";
+import about from "../Images/about.gif";
 
 const AboutMe = () => {
   return (
@@ -8,7 +9,7 @@ const AboutMe = () => {
         <div className="container">
           <div className="right">
             <div className="logoHome">
-              <img src="./Images/about.gif" alt="" />
+              <img src={about} alt="" />
             </div>
           </div>
           <div className="left">

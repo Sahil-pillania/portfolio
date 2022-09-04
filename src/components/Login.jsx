@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./CSS/Login.css";
+import login from "../Images/login.gif";
 // import Button from "@mui/material/Button";
 import "./CSS/Common.css";
 
@@ -23,7 +24,7 @@ const Login = () => {
       <div className="Main">
         <div className="imgLogin">
           <div className="center">
-            <img src="./Images/login.gif" alt="" />
+            <img src={login} alt="" />
           </div>
         </div>
         <div className="Form">

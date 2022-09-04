@@ -17,7 +17,7 @@ function App() {
       <Header />
       <Menu />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path={process.env.PUBLIC_URL + "/"} element={<Home />} />
         <Route path="contact" element={<ContactMe />} />
         <Route path="about" element={<AboutMe />} />
         <Route path="login" element={<Login />} />
